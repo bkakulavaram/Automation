@@ -28,8 +28,8 @@ private WebDriver d=new ChromeDriver();
     }
     @After
     public void tearDown(){
-        if(d!=null)
-            d.quit();
+       // if(d!=null)
+            //d.quit();
     }
 
 
