@@ -1,8 +1,0 @@
-Feature: user login feature
-  Scenario: user login scenario
-    Given user is at the login page of the application
-    When user logs in with the following username and password
-      | username | password |
-      | user1    |pass1     |
-      |user2     |pass2     |
-    Then user should be able to login with correct username and password
